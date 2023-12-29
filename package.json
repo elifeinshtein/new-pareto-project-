@@ -1,0 +1,19 @@
+{
+  "name": "project-for-amnon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "prodAndCart.js",
+  "scripts": {
+    "prod": "nodemon prodAndCartServer.js",
+    "purchases": "nodemon purchases.js",
+    "users": "nodemon users.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2",
+    "pg": "^8.11.3"
+  }
+}
